@@ -7,8 +7,7 @@ This script is specific to the needs of a one-time migration for [@octoherd](htt
 ## Usage
 
 ```
-git clone https://github.com/octoherd/script-create-repositories-from-script-folders.git
-$ npx @octoherd/cli \
+$ npx @octoherd/script-close-renovate-dashboard-issues \
   --octoherd-token 0123456789012345678901234567890123456789 \
   script-sync-branch-protections/script.js \
   "octoherd/scripts" \

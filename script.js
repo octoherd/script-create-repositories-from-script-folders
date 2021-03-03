@@ -4,8 +4,8 @@ import { createRepositoryFromFolder } from "./create-repository-from-folder.js";
 /**
  * Updates branch protection based on a settings from a template repository
  *
- * @param {import('@octoherd/octokit').Octokit} octokit
- * @param {import('@octokit/openapi-types').components["schemas"]["repository"]} repository
+ * @param {import('@octoherd/cli').Octokit} octokit
+ * @param {import('@octoherd/cli').Repository} repository
  * @param {object} options
  * @param {string} [options.pathToFolders]
  */
