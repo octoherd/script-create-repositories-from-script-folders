@@ -10,7 +10,7 @@ This script is specific to the needs of a one-time migration for [@octoherd](htt
 git clone https://github.com/octoherd/script-create-repositories-from-script-folders.git
 $ npx @octoherd/cli \
   --octoherd-token 0123456789012345678901234567890123456789 \
-  scripts/sync-branch-protections/script.js \
+  script-sync-branch-protections/script.js \
   "octoherd/scripts" \
   --path-to-folders "scripts/**"
 ```
