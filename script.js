@@ -7,7 +7,7 @@ import { createRepositoryFromFolder } from "./create-repository-from-folder.js";
  * @param {import('@octoherd/cli').Octokit} octokit
  * @param {import('@octoherd/cli').Repository} repository
  * @param {object} options
- * @param {string} [options.pathToFolders]
+ * @param {string} options.pathToFolders
  */
 export async function script(octokit, repository, { pathToFolders }) {
   if (!pathToFolders) {
