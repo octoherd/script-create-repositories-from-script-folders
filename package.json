@@ -24,10 +24,5 @@
   "bin": {
     "octoherd-script-create-repositories-from-script-folders": "./cli.js"
   },
-  "repository": "github:octoherd/script-create-repositories-from-script-folders",
-  "renovate": {
-    "extends": [
-      "github>octoherd/.github"
-    ]
-  }
+  "repository": "github:octoherd/script-create-repositories-from-script-folders"
 }
